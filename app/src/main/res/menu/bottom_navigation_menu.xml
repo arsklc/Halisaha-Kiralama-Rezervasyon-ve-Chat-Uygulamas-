@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_profil"
+        android:icon="@drawable/profil"
+        android:title="Profil" />
+    <item
+        android:id="@+id/navigation_arama"
+        android:icon="@drawable/search"
+        android:title="Arama" />
+    <item
+        android:id="@+id/navigation_ilan"
+        android:icon="@drawable/ilan"
+        android:title="İlan" />
+    <item
+        android:id="@+id/navigation_mesajlasma"
+        android:icon="@drawable/message"
+        android:title="Mesajlaşma" />
+</menu>

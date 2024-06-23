@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "659190864543",
+    "project_id": "bitirmehalisaha",
+    "storage_bucket": "bitirmehalisaha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659190864543:android:9638033edb0053e400a0aa",
+        "android_client_info": {
+          "package_name": "com.kilica.bitirmeproje"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0E8ZwhsXEmYWTmSpBYxYo2c3u73ZKzS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659190864543:android:44691e0e89fecad100a0aa",
+        "android_client_info": {
+          "package_name": "com.kilica.bitirmeproje.activities"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0E8ZwhsXEmYWTmSpBYxYo2c3u73ZKzS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

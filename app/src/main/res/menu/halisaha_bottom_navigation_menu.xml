@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_detay"
+        android:icon="@drawable/saha"
+        android:title="Detaylar" />
+    <item
+        android:id="@+id/navigation_randevu"
+        android:icon="@drawable/randevu"
+        android:title="Randevu" />
+    <item
+        android:id="@+id/navigation_mesaj"
+        android:icon="@drawable/message"
+        android:title="Mesajlar" />
+</menu>

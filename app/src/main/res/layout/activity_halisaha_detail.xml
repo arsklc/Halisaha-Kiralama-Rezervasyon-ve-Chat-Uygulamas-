@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <LinearLayout
+                android:id="@+id/photoContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/text_view_name_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İsim:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Halı Saha Adı"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_view_city_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Şehir:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Şehir Bilgisi"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_view_district_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="İlçe:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_district"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İlçe Bilgisi"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_view_price_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Fiyat:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fiyat Bilgisi"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_view_size_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Boyut:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boyut Bilgisi"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_view_address_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Adres:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adres Bilgisi"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/text_view_ekbilgi_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ek Bilgiler:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/text_view_ekbilgi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Halı Saha Adı"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Chat Başlat" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_dates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_slots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+

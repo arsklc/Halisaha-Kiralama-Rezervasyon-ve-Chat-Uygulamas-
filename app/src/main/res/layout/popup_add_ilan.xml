@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextSaha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saha" />
+
+    <EditText
+        android:id="@+id/editTextSaat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saat" />
+
+    <EditText
+        android:id="@+id/editTextMevki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mevki" />
+
+    <EditText
+        android:id="@+id/editTextNot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Not" />
+
+    <Button
+        android:id="@+id/buttonPublish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yayınla"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
